@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Headphones, ShoppingCart, Star, Zap } from "lucide-react"
+import { Headphones, ShoppingCart, Star, Zap } from 'lucide-react'
 import Image from "next/image"
 
 // Datos de ejemplo - en producción estos vendrían de una base de datos
@@ -72,11 +72,6 @@ export default function HomePage() {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <Link href="/admin">
-                <Button variant="outline" size="sm">
-                  Panel Admin
-                </Button>
-              </Link>
               <Link href="/catalog">
                 <Button className="bg-gradient-to-r from-blue-600 to-purple-600">
                   <ShoppingCart className="h-4 w-4 mr-2" />
